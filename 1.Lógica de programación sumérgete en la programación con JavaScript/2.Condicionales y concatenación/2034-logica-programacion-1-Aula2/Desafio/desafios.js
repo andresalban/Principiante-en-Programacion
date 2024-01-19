@@ -13,11 +13,13 @@ if (diaSemana=="DOMINGO" || diaSemana=="SÁBADO"){
 // el numero es almacenado en una variable
 let numeroUsuario =prompt("Ingrese un numero para evaluar si es positivo o negativo");
 //se evalua el numero ingresado
-if(numeroUsuario>=0){
+if(numeroUsuario>0){
     
     alert("el numero ingresado es positivo");
-}else{
+}if(numeroUsuario<0){
     alert("El numero ingresado es negativo");
+}else{
+    alert("El numero ingresado  es 0");
 }
 
 //Desafio 3
