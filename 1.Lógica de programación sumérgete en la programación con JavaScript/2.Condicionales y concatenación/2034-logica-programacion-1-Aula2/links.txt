@@ -1,0 +1,3 @@
+-Para saber más: punto y coma en JavaScript
+Para obtener información adicional, puedes leer la documentación sobre JavaScript.
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Lexical_grammar
