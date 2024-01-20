@@ -1,3 +1,4 @@
+alert("Para ver los resultados abrir la consola del navegador")
 //Desafio 1
 console.log("Desafio1");
 let contador1 =1;
@@ -15,6 +16,7 @@ while (contador2>0) {
 }
 
 //Desafio 3
+console.log("Desafio 3 ");
 let numeroUsuario =prompt("Por favor ingrese un numero");
 let contador3=0
 while (contador3 <= numeroUsuario) {
