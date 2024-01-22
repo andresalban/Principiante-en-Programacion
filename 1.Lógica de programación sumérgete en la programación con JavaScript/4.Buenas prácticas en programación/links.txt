@@ -1,0 +1,3 @@
+Para saber más: ¿Necesito memorizar cada línea de código o comando?
+documentación para generar un número aleatorio:
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random
