@@ -1,0 +1,48 @@
+¿Vamos a leer más sobre listas?
+
+Un array, arreglo o lista en JavaScript es una estructura de datos que permite almacenar y organizar múltiples valores en una sola variable. Los valores en un array pueden ser de cualquier tipo de dato, como números, strings, objetos, otros arrays, y así sucesivamente. Los arrays en JavaScript son indexados, lo que significa que cada valor dentro de ellos está asociado con un índice numérico, generalmente comenzando desde el índice 0.
+
+Creando un array
+Puedes crear un array en JavaScript declarando una variable y asignándole valores entre corchetes [].
+
+let frutas = ["Manzana", "Uva", "Naranja"];
+COPIA EL CÓDIGO
+Accediendo a los valores Los elementos de un array se acceden mediante índices numéricos, que comienzan en 0.
+
+Índice	Elemento
+0	"Manzana"
+1	"Uva"
+2	"Naranja"
+console.log(frutas[0]); // Salida: "Manzana"
+console.log(frutas[2]); // Salida: "Naranja"
+COPIA EL CÓDIGO
+Añadiendo nuevos elementos
+Para agregar un elemento al final del array, puedes usar el método push.
+
+frutas.push("Fresa");
+console.log(frutas); // Salida: ["Manzana", "Uva", "Naranja", "Fresa"]
+COPIA EL CÓDIGO
+Eliminando el último elemento
+Para eliminar el último elemento, puedes usar el método pop.
+
+frutas.pop();
+console.log(frutas); // Salida: ["Manzana", "Uva", "Naranja"]
+COPIA EL CÓDIGO
+¿Qué lenguajes de programación utilizan arrays?
+Aquí tienes una lista de algunos lenguajes de programación que utilizan arrays:
+
+JavaScript
+Python
+Java
+C++
+C#
+Ruby
+PHP
+Swift
+Kotlin
+Go
+Otros lenguajes también admiten el uso de arrays o estructuras de datos similares para almacenar colecciones de valores. Aprender sobre arrays es importante porque desempeñan un papel fundamental en el desarrollo de aplicaciones de software.
+
+Las listas o arrays proporcionan una manera eficiente de almacenar y acceder a conjuntos de datos, lo que permite a los programadores organizar la información de manera lógica y manipular estos datos de manera efectiva.
+
+Con el conocimiento de cómo trabajar con arrays, es posible crear algoritmos más poderosos, resolver problemas de programación de manera más eficiente y crear aplicaciones más dinámicas e interactivas.
