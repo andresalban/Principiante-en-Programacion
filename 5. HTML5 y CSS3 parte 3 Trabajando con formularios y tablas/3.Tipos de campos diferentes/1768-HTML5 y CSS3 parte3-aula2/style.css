@@ -102,13 +102,34 @@ form {
     margin: 40px 0;
 }
 
-form label {
-    display:block;
+form label,
+form p {
+    display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 2px solid #000000;
+    border-bottom-width: 5px;
+    border-radius: 28px 56px 84px;
+}
+
+textarea.input-padron {
+    border-radius: 15px 30px 45px 7.5px;
+
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+input[type=submit] {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;

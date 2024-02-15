@@ -18,6 +18,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="productos.html">Productos</a></li>
+
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -27,19 +28,57 @@
 
     <main>
         <form>
+
+            <!-- #region  Datos del cliente -->
             <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido">
-    
-              <label for="correoelectronico">Correo Electrónico</label>
-             <input type="text" id="correoelectronico">
-    
+            <input type="text" id="nombreapellido" class="input-padron">
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="text" id="correoelectronico" class="input-padron">
+
             <label for="telefono">Telefono</label>
-            <input type="text" id="telefono">
-    
+            <input type="text" id="telefono" class="input-padron">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+            <!-- #endregion -->
+
+            <!-- #region medios contacto-->
+            <div>
+                <p>¿Cómo te gustaria que te contactemos?</p>
+
+                <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email">
+                    Email</label>
+
+                <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono"
+                        id="radio-telefono">Telefono</label>
+
+                <label for="radio-Whatsapp"> <input type="radio" name="contacto" value="Whatsapp"
+                        id="radio-Whatsapp">WhatsApp</label>
+            </div>
+            <!-- #endregion -->
+
+            <!--  #region Horario de atencion -->
+            <div>
+                <p>En que horario prefiere ser atendido?</p>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+
+                </select>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region checkbox-->
+            <label class="checkbox">
+                <input type="checkbox"> ¿Le gustaria recibir ofertas y novedades de nuestros servicios?
+            </label>
+            <!-- #endregion -->
+
             <input type="submit" value="Enviar formulario">
         </form>
     </main>
-
 
     <footer>
         <img src="imagenes/logo-blanco.png">
