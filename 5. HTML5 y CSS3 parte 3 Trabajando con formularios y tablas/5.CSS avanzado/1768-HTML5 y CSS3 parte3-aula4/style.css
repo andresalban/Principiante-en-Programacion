@@ -129,12 +129,22 @@ textarea.input-padron {
     margin: 20px 0;
 }
 
-input[type=submit] {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-    border: 2px solid #000000;
-    border-bottom-width: 5px;
+
+.enviar {
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+    color: white;
+    background: orange;
+    border: 2px olid #000000;
+    border-bottom-width: 10px;
     border-radius: 28px 56px 84px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1) 
 }
