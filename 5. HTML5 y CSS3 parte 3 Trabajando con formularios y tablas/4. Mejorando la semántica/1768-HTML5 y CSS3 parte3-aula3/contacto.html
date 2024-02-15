@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="caja">
-            <h1><img src="imagenes/logo.png"></h1>
+            <h1><img src="imagenes/logo.png"  alt="Logotipo de la barberia"></h1>
 
             <nav>
                 <ul>
@@ -31,21 +31,21 @@
 
             <!-- #region  Datos del cliente -->
             <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron">
+            <input type="text" id="nombreapellido" class="input-padron" required>
 
             <label for="correoelectronico">Correo Electrónico</label>
-            <input type="text" id="correoelectronico" class="input-padron">
+            <input type="email" id="correoelectronico" class="input-padron" placeholder="ejemplo@dominio.com" required>
 
             <label for="telefono">Telefono</label>
-            <input type="text" id="telefono" class="input-padron">
+            <input type="tel" id="telefono" class="input-padron" placeholder="(XX)XXXXXXX" required>
 
             <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
             <!-- #endregion -->
 
             <!-- #region medios contacto-->
-            <div>
-                <p>¿Cómo te gustaria que te contactemos?</p>
+            <fieldset>
+                <legend>¿Cómo te gustaria que te contactemos?</legend>
 
                 <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email">
                     Email</label>
@@ -54,25 +54,26 @@
                         id="radio-telefono">Telefono</label>
 
                 <label for="radio-Whatsapp"> <input type="radio" name="contacto" value="Whatsapp"
-                        id="radio-Whatsapp">WhatsApp</label>
-            </div>
+                        id="radio-Whatsapp" checked>WhatsApp</label>
+            </fieldset>
             <!-- #endregion -->
 
             <!--  #region Horario de atencion -->
-            <div>
-                <p>En que horario prefiere ser atendido?</p>
+            <fieldset>
+                <LEgend>En que horario prefiere ser atendido</LEgend>
+                
                 <select name="" id="">
                     <option value="">Mañana</option>
                     <option value="">Tarde</option>
                     <option value="">Noche</option>
 
                 </select>
-            </div>
+            </fieldset>
             <!-- #endregion -->
 
             <!-- #region checkbox-->
             <label class="checkbox">
-                <input type="checkbox"> ¿Le gustaria recibir ofertas y novedades de nuestros servicios?
+                <input type="checkbox" checked> ¿Le gustaria recibir ofertas y novedades de nuestros servicios?
             </label>
             <!-- #endregion -->
 
@@ -81,7 +82,7 @@
     </main>
 
     <footer>
-        <img src="imagenes/logo-blanco.png">
+        <img src="imagenes/logo-blanco.png" alt="Logotipo de la barberia blanco">
         <p class="copyright">&copy; Copyright Barbería Alura - 2020</p>
     </footer>
 </body>
