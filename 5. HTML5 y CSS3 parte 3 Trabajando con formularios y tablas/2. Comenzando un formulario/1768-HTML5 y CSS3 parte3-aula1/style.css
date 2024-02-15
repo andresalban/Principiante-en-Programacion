@@ -92,3 +92,28 @@ footer {
     font-size: 13px;
     margin: 20px;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 2px solid #000000;
+    border-bottom-width: 5px;
+    border-radius: 28px 56px 84px;
+}
