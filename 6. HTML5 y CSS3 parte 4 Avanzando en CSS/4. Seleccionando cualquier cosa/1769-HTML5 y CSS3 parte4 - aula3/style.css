@@ -165,6 +165,26 @@ th {
 }
 
 /* CSS para index.html */
+
+/*
+main>p {
+    background: red;
+}
+
+img+p {
+    background: darkblue;
+}
+
+img~p {
+    background: goldenrod;
+}
+
+.principal p:not(#mision) {
+    background: rebeccapurple;
+}
+*/
+
+
 .banner {
     width: 100%;
 }
@@ -240,7 +260,7 @@ th {
     content: "\2726";
 }
 
-.items:first-child  {
+.items:first-child {
     font-weight: bold;
 }
 
