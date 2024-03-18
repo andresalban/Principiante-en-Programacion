@@ -1,0 +1,8 @@
+Requerimiento:
+Calcular el área de un cubo.
+
+Algoritmo
+1.obtener el largo de la arista
+2.Calcular el area del cubo
+3.Mostrar el valor del area del cubo
+4.Fin
