@@ -1,0 +1,10 @@
+https://www.atlassian.com/es/git/tutorials/install-git
+https://www.aluracursos.com/blog/git-y-los-nuevos-comandos
+https://www.aluracursos.com/blog/clonando-un-repositorio-remoto?utm_source=gnarus&utm_medium=timeline
+https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github?utm_source=gnarus&utm_medium=timeline
+https://www.aluracursos.com/blog/iniciando-repositorio-con-git
+https://www.aluracursos.com/blog/como-evitar-errores-en-git
+https://www.aluracursos.com/blog/exigendia-autenticacion-por-token
+https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-clone
+https://git-scm.com/docs/git-clone
